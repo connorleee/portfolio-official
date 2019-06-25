@@ -130,6 +130,10 @@ h6 {
   margin: 0px;
 }
 
+.home-photo {
+  filter: blur(2px);
+}
+
 /***spaces**/
 .space-10 {
   width: 100%;
