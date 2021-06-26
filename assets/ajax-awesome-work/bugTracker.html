@@ -1,0 +1,59 @@
+<div class="cbp-l-project-title">Bug Tracker</div>
+<div class="cbp-l-project-subtitle">by Connor Lee</div>
+
+<div class="cbp-slider">
+    <ul class="cbp-slider-wrap">
+        <li class="cbp-slider-item">
+            <!-- <video width="1024" height="576" controls>
+                <source src="./assets/videos/bug-tracker-demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> -->
+            <iframe width="1024" height="576" src="https://www.youtube.com/embed/PYxLwn-Kk2U"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </li>
+        <li class="cbp-slider-item">
+            <img src="./assets/images/dashboard.png" alt="dashboard">
+        </li>
+        <li class="cbp-slider-item">
+            <img src="./assets/images/project.png" alt="project page">
+        </li>
+        <li class="cbp-slider-item">
+            <img src="./assets/images/tickets.png" alt="tickets page">
+        </li>
+        <li class="cbp-slider-item">
+            <img src="./assets/images/administration.png" alt="administration page">
+        </li>
+    </ul>
+</div>
+
+<div class="cbp-l-project-container">
+    <div class="cbp-l-project-desc">
+        <div class="cbp-l-project-desc-text">Bug Tracker is a project management utility intended for internal use
+            within an organization. Users can create projects and assign/manage team members. Within a project, users
+            can generate tickets for feature requests, issues, bug fixes, etc. Additionally, users can follow a thread
+            of comments per ticket.
+
+            If a user has admin access, they can manage the entire organization and make edits to user profiles and
+            assign different roles for various levels of authorization.</div>
+        <div class="cbp-1-project-desc-text">Bug Tracker is built with a React front end and a Node backend with an
+            Express server serving data from a PostgreSQL database. The app keeps user data secure by encrypting
+            passwords before storing them in the database with bcrypt. Users are authenticated and login sessions are
+            persistent by utilization of JSON Web Tokens (JWTs) saved in local storage. JWTs are further used with API
+            calls in order to authenticate and then retrieve data relevant to the specific user. Depending on the user's
+            authorization level (admin/developer/project manager), the React layout will change.</div>
+
+
+    </div>
+    <div class="cbp-l-project-details">
+        <ul class="cbp-l-project-details-list">
+            <li><strong>Date</strong>June 2021</li>
+            <li><strong>Categories</strong>Full-Stack, React, PostgreSQL</li>
+        </ul>
+        <a href="https://bugtracker-cl.com/" target="_blank" class="cbp-l-project-details-visit">OPEN
+            PROJECT</a>
+        <a href="https://github.com/connorleee/BugTracker" target="_blank" class="cbp-l-project-details-visit">OPEN
+            REPOSITORY</a>
+    </div>
+</div>
